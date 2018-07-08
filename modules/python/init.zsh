@@ -10,6 +10,7 @@
 # Load manually installed pyenv into the shell session.
 if [[ -s "$HOME/.pyenv/bin/pyenv" ]]; then
   path=("$HOME/.pyenv/bin" $path)
+  export PYENV_VIRTUALENV_DISABLE_PROMPT=1
   export PYENV_ROOT=$(pyenv root)
   eval "$(pyenv init -)"
 

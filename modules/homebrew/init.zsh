@@ -33,3 +33,5 @@ alias caskl='brew cask list'
 alias casko='brew cask outdated'
 alias casks='brew cask search'
 alias caskx='brew cask uninstall'
+
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
